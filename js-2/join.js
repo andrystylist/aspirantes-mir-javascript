@@ -8,6 +8,7 @@ function join(arreglo) {
   for(let i = 0; i < arreglo.length; i++){
     resultado = resultado + " " + arreglo[i]
   }
+
   return resultado.trim()
 }
 
